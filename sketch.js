@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  background(255, 255, 255, 10);
+  clear;
   orbitControl(); // permite rotar suavemente con el mouse
   rotateX(frameCount * 0.001);
   rotateY(frameCount * 0.001);
