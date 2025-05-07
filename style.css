@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: transparent;
+  background-color: 255, 246, 245;
+  ;
 }
 canvas {
   display: block;

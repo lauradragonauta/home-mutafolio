@@ -9,7 +9,8 @@ function setup() {
 }
 
 function draw() {
-  clear(); // fondo transparente ideal para Readymag
+  background(255, 246, 245);
+
   
   for (let p of particles) {
     p.update();
