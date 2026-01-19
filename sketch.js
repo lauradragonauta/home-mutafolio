@@ -58,7 +58,7 @@ class Particle {
     push();
     translate(this.pos.x, this.pos.y, this.pos.z);
     noStroke();
-    fill(this.gray, 100); // semitransparente
+    fill('#6E83EB', 60); // más transparente alpha 60/255
     sphere(this.size);
     pop();
   }
