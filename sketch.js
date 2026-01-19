@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  background(255, 246, 245);
+  background(255, 254, 252);
 
   
   for (let p of particles) {
