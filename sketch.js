@@ -28,9 +28,9 @@ class Particle {
     this.vel = p5.Vector.random2D().mult(0.5); // solo movimiento 2D
     this.acc = createVector(0, 0, 0);
     this.size = random(2, 5);
-    //this.gray = random(50, 200);
-    this.col = '#6E83EB';
-    this.alpha = 80;
+    this.gray = random(50, 200);
+    //this.col = '#6E83EB';
+    //this.alpha = 80;
   }
 
   update() {
@@ -60,7 +60,8 @@ class Particle {
     push();
     translate(this.pos.x, this.pos.y, this.pos.z);
     noStroke();
-    fill(this.col, this.alpha);
+    //fill(this.col, this.alpha);
+    fill(this.gray, 100); // semitransparente
     sphere(this.size);
     pop();
   }
